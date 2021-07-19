@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://liguros.gitlab.io/dtd/metadata.dtd">
+<pkgmetadata>
+ <maintainer type="project">
+  <email>xfce@gentoo.org</email>
+  <name>XFCE Team</name>
+ </maintainer>
+ <upstream>
+  <remote-id type="github">andrzej-r/xfce4-pulseaudio-plugin</remote-id>
+ </upstream>
+ <use>
+  <flag name="keybinder">Enable support for global hotkeys using
+			<pkg>dev-libs/keybinder</pkg>.</flag>
+  <flag name="wnck">Enable experimental support for raising media
+			player windows using <pkg>x11-libs/libwnck</pkg>.</flag>
+ </use>
+ <origin>gentoo-staging</origin>
+</pkgmetadata>
